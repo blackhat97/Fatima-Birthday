@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>fatima's birthday</title>
+
+  <link rel="Shortcut Icon" href="logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+  <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+  
+  <link rel="stylesheet" href="css/game2.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+  
+
+</head> 
+
+<body>
+<div id="fullpage">
+	
+	<!-- cake section-->
+	<div id="firstsection" class="section">
+
+		<div class="velas">
+		    <div class="fuego"></div>
+		    <div class="fuego"></div>
+		    <div class="fuego"></div>
+		    <div class="fuego"></div>
+		    <div class="fuego"></div>
+		</div>
+		<embed id="cake" src="cake.svg" width="200px" height="500px" type="image/svg+xml" pluginspage="http://www.adobe.com/svg/viewer/install/" />
+		
+		<div class="text">
+			  <h1>!سالگرہ مبارک ہو</h1>
+			  <h1><b>فاطمہ</b></h1>
+			  <h1>11/28/2019</h1>
+		</div>
+	</div>
+	
+  <!--photo section-->
+	<div class="section">
+		<div class="text">
+			<h1>Congratulations~(｡♥‿♥｡)</h1>
+			<img id="initial" src="fatima.svg" alt="">
+			 <p><img id="lara_archer" src="photo/KakaoTalk_Image_Fatima_1.jpeg"></p>
+		</div>
+		<div id="boyfriend"></div>
+	</div>
+
+	<!--letter section-->
+	<div class="section">
+		
+		<div class="text">
+			<h1>Fatima.. over the past months,<br />many things have happened...</h1>
+			<p><b>I read your letter impressively. Thank you so so much.
+					Also, you're really good at drawing<br />emoticon characters and writing Hangul.<br />
+					I felt that you wrote a letter with a lot of effort.
+					I've never seen you face to face, but I can feel enough that you're a true person.
+					Also, I know you're really emotional person too.
+					Fatima, thank you for your concerns. If you also feel lonely or have concerns such as missing your hometown, please don't hesitate and tell me whenever you want.
+					I'll do my best to help you.
+					Like you said, I totally agree that life is very short.
+					So Fatima.. Love life and love yourself. This is what I want to say to you.
+					Remember when I said I'd develop an global chat app for your birthday? But I'll put it off for a while. Sorry...
+					Instead, I should learn Urdu first and talk with you fluently.
+					It was most memorable and meaningful for me to get to know you this year.
+					It was a very precious time chat with you...
+						
+			</br></p>
+		</div>
+		
+	</div>
+	
+	<!--game section-->
+	<div class="section">
+
+		<div class="text">
+			<h1>Little Game For You</h1>
+			<p>Have Fun Playing!</p>
+			<div id="picbox">
+				<span id="boxbuttons">
+					<span class="button">
+						<span id="counter">0</span> Clicks
+					</span>
+					<span class="button">
+						<a onclick="ResetGame();">Reset</a>
+					</span>
+				</span>
+				<div id="boxcard"></div>
+
+				<div class="sign" style="color: palevioletred;">
+					<h2>GAME CLEAR!&nbsp;GREAT JOB!</h2>
+					<h4>Fatima I hope you are healthy and happy.</h4>
+					<h4>I will always stand by you.😁😁♫♫</h4>
+					<div id="opencard">
+						<img src="photo/KakaoTalk_Image_Fatima_1.jpeg" />
+						<img src="photo/KakaoTalk_Image_Fatima_2.jpeg" />
+						<img src="photo/KakaoTalk_Image_Fatima_3.jpeg" />
+						<br />
+						<img src="photo/KakaoTalk_Image_Jun_1.jpeg" />
+						<img src="photo/KakaoTalk_Image_Jun_2.jpeg" />
+						<img src="photo/KakaoTalk_Image_Jun_3.jpeg" />
+					</div>
+				</div>
+
+			</div>
+
+			
+			
+		</div>
+	</div>
+	
+	<!--video section-->
+	<div class="section">
+		<div class="text">
+			<h1>Song For You</h1>
+			<p>Enjoy Watching!</p>
+			<br />
+			<iframe id="song" width="320" height="240" src="https://www.youtube.com/embed/zH4cHaWFcys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<!--
+			<video width="320" height="240" controls>
+				<source src="song.mp4" type="video/mp4">
+			</video>
+			-->
+		</div>
+	</div>
+	
+	<div class="section fp-auto-height final_section">
+		<div >
+			<h1>&#169; 2019 Fatima</h1>
+			<p>Design by Jun</p>
+		</div>
+	</div>
+	
+		
+ </div>  
+	
+	
+	<!-- v1.11.0 jquery -->
+  <script src='js/jquery.js'></script>
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script src="js/jquery.lazylinepainter-1.7.0.min.js"></script>
+  <script type="text/javascript" src="js/svg.js"></script>  
+  <script type="text/javascript" src="js/index.js"></script>
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+	<!--  <script src="vendors/jquery.easings.min.js"></script>-->
+	<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+	<!-- <script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>-->
+	 
+	<script src="js/game2.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+
+</body>
+
+</html>

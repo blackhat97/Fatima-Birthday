@@ -1,0 +1,85 @@
+.sign-container {
+    width: 100%;
+    z-index: 1;
+}
+  
+.sign {
+    visibility: hidden;
+    font-size: 20px;
+    position: absolute;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    font-family: 'Indie Flower', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 18px Verdana;
+    color: lemonchiffon;
+    background: pink;
+}
+
+#picbox {
+    margin: 0px auto;
+    width: 350px;
+    height: auto !important;
+}
+
+#boxcard {
+    z-index: 1;
+    margin: 10px 0 0;
+}
+
+#boxcard div {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid powderblue;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+    background: aliceblue;
+    z-index: 2;
+}
+
+#boxcard div img {
+    display: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    z-index: 3;
+}
+
+#opencard img {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
+
+#boxbuttons {
+    text-align: center;
+    margin: 10px;
+    display: block;
+}
+
+#boxbuttons .button {
+    text-transform: uppercase;
+    background: powderblue;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#boxbuttons .button:hover {
+    background: lightgreen;
+}
